@@ -8,5 +8,6 @@
       <NuxtLogo />
       <p class="title_text">{{ `Nuxt 3` }}</p>
     </div>
+    <OgImageStatic component="OgTemplate" title="Sample Banner" />
   </div>
 </template>

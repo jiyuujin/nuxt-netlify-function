@@ -4,6 +4,20 @@ import svgLoader from 'vite-svg-loader'
 export default defineNuxtConfig({
   srcDir: 'app/',
   css: ['~/assets/main.css'],
+  modules: ['nuxt-og-image'],
+  ogImage: {
+    playground: true,
+    runtimeBrowser: true,
+    runtimeCacheStorage: false,
+    defaults: {
+      component: 'OgTemplate',
+      appName: 'My Netlify App',
+    },
+    debug: true,
+  },
+  experimental: {
+    componentIslands: true,
+  },
   vite: {
     plugins: [
       svgLoader({

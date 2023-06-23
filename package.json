@@ -12,6 +12,10 @@
   "devDependencies": {
     "express": "^4.18.2",
     "nuxt": "^3.5.3",
+    "nuxt-og-image": "^2.0.0-beta.58",
     "vite-svg-loader": "^4.0.0"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0"
   }
 }
